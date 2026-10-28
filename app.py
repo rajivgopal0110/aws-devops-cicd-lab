@@ -1,8 +1,8 @@
 from flask import Flask
 app = Flask(__name__)
 
-VERSION = "v1"
-COLOR = "#2563eb"
+VERSION = "v2"
+COLOR = "#2566eb"
 
 @app.route("/")
 def home():
